@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Vaibhava Wealth — Website
 
 A premium corporate website for Vaibhava Wealth, a wealth & investment consultancy, built with React 19, TypeScript, Vite, Tailwind CSS, Framer Motion, React Router, and React Hook Form.
@@ -35,3 +36,6 @@ Output goes to `dist/`.
 5. **Legal pages**: `src/pages/Legal.tsx` contains placeholder Privacy Policy / Terms content — have compliance review before publishing.
 6. **ARN number & registration details**: add your actual AMFI ARN number wherever "AMFI Registered" is mentioned.
 7. **Blog content**: `BlogPost.tsx` renders placeholder body copy — add full article content per post (or wire to a CMS).
+=======
+# vaibhava-wealth .....love you
+>>>>>>> d1b74a73581e720b0a66ff38e22912c513d0e489
