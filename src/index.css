@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-cream text-charcoal font-body;
+}
+
+h1, h2, h3, h4 {
+  @apply font-display text-emerald font-semibold;
+}
+
+.eyebrow {
+  @apply font-ui uppercase tracking-[0.18em] text-[0.72rem] text-gold font-semibold;
+}
+
+.container-w {
+  @apply max-w-[1180px] mx-auto px-6 md:px-8;
+}
+
+.btn {
+  @apply font-ui font-semibold text-[0.85rem] tracking-wide px-8 py-4 rounded-sm inline-flex items-center gap-2.5 transition-all duration-300 cursor-pointer;
+}
+
+.btn-gold {
+  @apply bg-gradient-to-br from-gold-light to-gold text-emerald-deep;
+}
+.btn-gold:hover {
+  @apply -translate-y-0.5 shadow-[0_14px_30px_-10px_rgba(200,155,60,0.55)];
+}
+
+.btn-outline {
+  @apply border border-white/40 text-white;
+}
+.btn-outline:hover {
+  @apply bg-white/10 border-gold;
+}
+
+.btn-outline-dark {
+  @apply border border-emerald text-emerald;
+}
+.btn-outline-dark:hover {
+  @apply bg-emerald text-white;
+}
+
+.dotted-bg {
+  background-image: radial-gradient(circle, rgba(200,155,60,0.14) 1px, transparent 1px);
+  background-size: 26px 26px;
+}
